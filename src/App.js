@@ -2,6 +2,7 @@ import './App.css';
 import LoginScreen from './Components/login';
 import BicycleList from './Components/bicycleList';
 import BookingScreen from './Components/bookingScreen';
+import Navigation from './Components/Navigation';
 
 function App() {
   const userList = [
@@ -16,7 +17,10 @@ function App() {
     {id:"004", available:"false", location:""}
   ]
   return (
+    <>
+    <Navigation/>
     <BookingScreen/>
+    </>
   );
 }
 
