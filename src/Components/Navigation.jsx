@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <Navbar bg="info" expand="lg" style ={{padding : "0.5rem 3rem"}}>
       <Container fluid>
-        <Navbar.Brand href="#">Bicycle Renting System</Navbar.Brand>
+        <Navbar.Brand href="">Bicycle Renting System</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,9 +17,9 @@ function Navigation() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Bicycles</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/bicycles">Bicycles</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <Nav.Link href="/login">Log In</Nav.Link>
         </Navbar.Collapse>
